@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    color: white;
+   
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+
+
+/* Header */
+header {
+    background-color: white;
+    height: 200px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center; /* Dikey hizalama */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+header .logo img {
+    width: 450px;
+    height: 200px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+    margin-top: 30px;
+    
+   
+}
+
+nav ul li {
+    margin-left: 20px;
+
+}
+
+nav ul li a {
+    color: #587e5a;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #e74c3c;
+}
+header.shrink {
+    height: 80px; /* Header küçüldü */
+    padding: 5px 0;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header.shrink .logo img {
+    width: 200px; /* Logo küçüldü */
+    height: 80px;
+}
+
+.container2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 220px;
+}
+.blog-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-left:20%;
+    align-items: center;
+    background: #59a37e;
+    padding: 30px;
+    
+    margin-bottom: 15px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    height: 250px;
+    width: 60%;
+}

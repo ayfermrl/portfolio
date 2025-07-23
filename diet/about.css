@@ -1,0 +1,111 @@
+
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    
+    
+}
+header {
+    background-color: white;
+    height: 200px;
+    padding: 10px 0;
+    display: flex;
+    
+    
+     
+}
+
+header .logo img {
+    width: 450px;
+    height: 200px;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+    margin-top: 30px;
+    
+   
+}
+
+nav ul li {
+    margin-left: 20px;
+
+}
+
+nav ul li a {
+    color: #587e5a;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #e74c3c;
+}
+/* Hakkımda Bölümü */
+.hakkimda-section {
+    background-color: #c1cdc1;
+    color: #ffffff;
+    padding: 60px 0;
+    text-align: center;
+    
+}
+
+.hakkimda-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hakkimda-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.hakkimda-content img {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    margin-right: 100px;
+    margin-left: -100px;
+}
+
+.hakkimda-text {
+    max-width: 500px;
+}
+
+.hakkimda-text p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+.container2{
+    background-color: #2c3e50;
+    color: #c1cdc1;
+    padding: 60px 0;
+    text-align: center;
+}
